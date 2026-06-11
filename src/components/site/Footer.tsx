@@ -25,7 +25,7 @@ export function Footer() {
           <p className="font-hand text-base text-sun">Maraming salamat sa pagtulong. ✦</p>
         </div>
       </div>
-    </footer>
+    </footer> 
   );
 }
 
