@@ -22,7 +22,7 @@ export function Footer() {
 
         <div className="mt-12 flex flex-wrap items-center justify-between gap-4 border-t border-cream/10 pt-6 text-xs text-cream/60">
           <p>© {new Date().getFullYear()} Project ABC — Abli, Basa, Community. All rights reserved.</p>
-          <p className="font-hand text-base text-sun">Maraming salamat sa pagtulong. ✦</p>
+          <p className="font-hand text-base text-sun">Maraming salamat sa pagtulong.</p>
         </div>
       </div>
     </footer> 
