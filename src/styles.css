@@ -1,5 +1,8 @@
-@import "tailwindcss" ;
+@import "tailwindcss" source(none);
+@source "../src";
 @import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
 
 /* Project ABC — Abli, Basa, Community
  * Palette derived from the project logo (rainbow ABC, cloud silhouette).
@@ -7,7 +10,7 @@
  * brick-red primary, sunshine yellow and leaf-green accents.
  */
 
-:root {
+@theme inline {
   --font-display: "Fraunces", ui-serif, Georgia, serif;
   --font-hand: "Caveat", "Patrick Hand", cursive;
   --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
@@ -46,7 +49,9 @@
   --color-cream: var(--cream);
   --color-ink: var(--ink);
   --color-cloud: var(--cloud);
+}
 
+:root {
   --radius: 1rem;
 
   /* Warm paper cream background, deep ink text */
